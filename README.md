@@ -2,7 +2,9 @@
 # 🐍 Gestionnaire de Venv
 Ce projet propose un script shell (venv) qui simplifie la gestion des environnements virtuels Python. Il automatise la création, l'activation, la désactivation et l'exécution de commandes, offrant une interface simple et puissante.
 ___
+
 ##🚀 Installation
+
 ###📋 Prérequis
 Pour utiliser ce script, vous devez avoir Python 3, pip, venv et pipx installés sur votre système.
  * Python 3 & Pip
@@ -22,6 +24,7 @@ python3 -m pipx ensurepath
    Relancez votre terminal pour que les changements prennent effet.
 
 ___
+
 ###📥 Installation du script venv
 Pour que le script soit utilisable partout, exécutez le script d'installation qui le placera dans votre $PATH.
  * Créez un fichier nommé install_venv.sh et copiez-collez le code suivant :
@@ -196,6 +199,7 @@ fi
    chmod +x install_venv.sh
 sudo ./install_venv.sh
 ___
+
 ###💡 Utilisation
 Une fois installé, le script venv peut être utilisé de n'importe où.
 | Commande | Description |
