@@ -55,8 +55,19 @@ Une fois installé, le script venv peut être utilisé de n'importe où.
 
 
 
-execute pour voir les commandes
+Exemple  d utilisation:
 ```bash
 venv -h
+```
+```bash
+venv on
+
+( a exécuter dans le répertoire du projets sa vas automatiquement le detecter )
+```
+```bash
+venv pip install -r requirements.txt
+```
+```bash
+venv python3 fichier.py
 ```
 
