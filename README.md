@@ -46,11 +46,11 @@ Une fois installé, le script venv peut être utilisé de n'importe où.
 | Commande | Description |
 |---|---|
 | venv | Active ou désactive l'environnement virtuel. |
-| venv on / venv off <chemin> | Force l'activation ou la désactivation. |
-| venv <commande> | Exécute une commande dans le venv et le désactive après. Ex: venv pip install requests |
+| venv on / venv off [/chemin] | Force l'activation ou la désactivation. |
+| venv [commande] | Exécute une commande dans le venv et le désactive après. Ex: venv pip install requests |
 | venv -s | Affiche le statut actuel du venv (actif ou inactif). |
 | venv -i | Liste les modules installés dans le venv. |
-| venv -sy <chemin> | Synchronise votre répertoire de travail avec un autre dossier venv existant. |
+| venv -sy [/chemin]| Synchronise votre répertoire de travail avec un autre dossier venv existant. |
 | venv -h | Affiche le menu d'aide. |
 
 
