@@ -46,7 +46,7 @@ Une fois installé, le script venv peut être utilisé de n'importe où.
 | Commande | Description |
 |---|---|
 | venv | Active ou désactive l'environnement virtuel. |
-| venv on / venv off | Force l'activation ou la désactivation. |
+| venv on / venv off <chemin> | Force l'activation ou la désactivation. |
 | venv <commande> | Exécute une commande dans le venv et le désactive après. Ex: venv pip install requests |
 | venv -s | Affiche le statut actuel du venv (actif ou inactif). |
 | venv -i | Liste les modules installés dans le venv. |
@@ -59,3 +59,4 @@ execute pour voir les commandes
 ```bash
 venv -h
 ```
+
